@@ -1,0 +1,145 @@
+#wrapper {
+    width: 960px;
+}
+
+body{
+    overflow: scroll;
+    background-color: black;
+}
+#top {
+    height: 135px;
+    line-height: 135px;
+}
+
+#companyLogo{
+    height: 5px;
+    width: 5px;
+}
+#menu{
+    float: left;
+    color: white;
+}
+#banner {
+    background-image: url("../images/pexels-photo-1436119.jpg");
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+#banner h1{
+    color: white;
+    position: relative;
+    top: 115px;
+    left: 100px;
+}
+#banner h2{
+    color: forestgreen;
+    position: relative;
+    top: 30px;
+    left: 195px;
+}
+
+#email{
+    color: darkorange;
+    position: center;
+
+}
+#footer {
+    position: relative;
+    bottom: 0px;
+    width: 960px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+}
+.clearMargin {
+    margin: 0px;
+}
+.marginCenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p{
+    color:white;
+    text-space: double;
+    font-size: 18px;
+    font-style: italic;
+    font-palette: light;
+}
+p.small {
+    line-height: 2.0;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 45px;
+}
+.row{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.fontFamily {
+    font-family: "Helvetica", Helvetica-nueue, sans-serif;
+}
+
+.grBigContent {
+    width: 940px;
+}
+
+.grBigContentPadding {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.grSmallContent {
+    width: 50px;
+}
+
+.grSmallContentPadding {
+    padding-right: 19px;
+    padding-left: 19px;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.borderCenter{
+    border: center;
+}
+
+.marginCenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.floatLeft {
+    float: left;
+}
+.floatRight{
+    float:right;
+}
+
+.textInline {
+    display: inline;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.textCenter {
+    text-align: center;
+}
+
